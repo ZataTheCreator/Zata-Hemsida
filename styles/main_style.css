@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+    padding: 0;
+}
+
+/* Allt som involverar navigations menyerna */
+/* Stilen på hela menyerna */
+.Menu {
+	text-align: center;
+	}
+
+	/* Listor i navigations menyerna. Listor agerar som container för navigationsknapparna */
+	.Menu ul {
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	/* Listinnehåll i navigations menyerna. Listinnehåll agerar som navigationsknapparna */
+	.Menu li {
+		float: left;
+	}
+
+	/* Texten i navigationsknapparna */
+	.Menu li a {
+		text-decoration: none;
+		
+	}
+
+	/* Navigationsknapparna när musen är över dom */
+	.Menu li a:hover{
+		background-color: #000;
+	}
